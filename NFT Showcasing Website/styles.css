@@ -92,9 +92,10 @@ img{
 }
  .site-title{
     background: url(https://media.istockphoto.com/id/1333772625/photo/cpu-central-processor-unit-icon-floating-in-space.jpg?b=1&s=170667a&w=0&k=20&c=dKYVxHHEsYOuO6Aba3ZlfnG7HHXmLQFXVW-wuxQCbC0=);
+
     background-size: cover; 
     height: 110vh;
-    display:block; 
+     
     overflow: hidden;
     justify-content: space-between;
    
@@ -121,8 +122,11 @@ img{
   margin-bottom: 20px;
   line-height: 1.25rem;
   animation: moveToRight 2s;
-
 }
+  .Nft-show {
+left:100%;
+  }
+
 .Nft-show img{
     width: 300px;
     justify-content: right;
@@ -141,6 +145,7 @@ main .About .content {
     
     overflow: hidden;
 }  
+
 main .About .content h1{
     margin: 1px 1.5px;
     padding: 0.5px;
