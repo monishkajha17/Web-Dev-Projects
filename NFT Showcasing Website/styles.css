@@ -92,7 +92,7 @@ img{
 }
  .site-title{
     background: url(https://media.istockphoto.com/id/1333772625/photo/cpu-central-processor-unit-icon-floating-in-space.jpg?b=1&s=170667a&w=0&k=20&c=dKYVxHHEsYOuO6Aba3ZlfnG7HHXmLQFXVW-wuxQCbC0=);
-
+    background-image: linear-gradient(rgba(255,255,255,0.25));
     background-size: cover; 
     height: 110vh;
      
@@ -101,10 +101,14 @@ img{
    
 
 }
+.mid-div{
+width:20%;
+}
 .site-title .site-background{
     color: #fff;
     margin: 5rem 3rem;
     padding: 1rem;
+    display: flex; 
 }
 .site-title .site-background h1{
     font-family: 'Playfair Display', serif;
@@ -129,7 +133,14 @@ left:100%;
 
 .Nft-show img{
     width: 300px;
-    justify-content: right;
+    /* justify-content: right; */
+    right: 100%;
+    border-radius: 3px solid white;
+}
+.Nft-show .css-113{
+    border-radius: 9rem;
+    opacity: 90%;
+    opacity: revert;
 }
 main .About{
     margin: 0;
@@ -137,7 +148,7 @@ main .About{
     background-color: #000000;
     width: 100%;
     height: 100vh;
-    justify-content:space-around;
+    display: flex;
 }  
 main .About .content {
     
@@ -156,16 +167,20 @@ main .About .content h1{
     /*justify-content: space-around;*/
 
 }
-main .About .content .CSS-111{
+ .content .CSS-115 .CSS-111{
     margin: 4rem 1.5rem;
     border-radius: 5rem;
     height: 350px;
     width: 350px;
-    justify-content: left;
+    left: 100%;
     
 }
+.css-114{
+    width: 20%;
+}
 main .About .content .CSS-112{
-    justify-content: right;
+    right: 100%;
+    color: #fff;
     
 }
 .header{
