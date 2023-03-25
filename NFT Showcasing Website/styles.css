@@ -51,7 +51,8 @@ img{
 .nav {
     position: fixed;
     background-color:#000000;
-    padding: 0 2rem;
+    margin-left: 1.5rem;
+    padding: 0rem 2rem;
     height: 0rem;
     min-height: 10vh;
     overflow: hidden;
