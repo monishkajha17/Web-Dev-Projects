@@ -300,6 +300,18 @@ main .About .content .CSS-112{
     display: flex;
     overflow: hidden;
   }
-  f
+  
+  .footer{
+    background-color: #000000;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+
+  }
+  .container{
+    max-width: 1170px;
   }
   
