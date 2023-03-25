@@ -3,6 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Roboto+Slab:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Playfair+Display+SC&family=Roboto+Slab:wght@600&family=Sassy+Frass&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Playfair+Display+SC&family=Roboto+Slab:wght@600&display=swap');
+:root{
+    scroll-behavior: smooth;
+}
 body{
     margin: 0;
     padding: 0;
@@ -49,9 +52,9 @@ img{
     align-items: center;
 }
 .nav {
-    position: fixed;
+    /*position: fixed;*/
     background-color:#000000;
-    margin-left: 1.5rem;
+    
     padding: 0rem 2rem;
     height: 0rem;
     min-height: 10vh;
@@ -92,6 +95,7 @@ img{
     font-family: 'Playfair Display SC', serif;
     font-weight: 300;
 }
+
  .site-title{
     background: url(https://media.istockphoto.com/id/1333772625/photo/cpu-central-processor-unit-icon-floating-in-space.jpg?b=1&s=170667a&w=0&k=20&c=dKYVxHHEsYOuO6Aba3ZlfnG7HHXmLQFXVW-wuxQCbC0=);
     background-image: linear-gradient(rgba(255,255,255,0.25));
@@ -228,7 +232,7 @@ main .About .content .CSS-112{
   }
   .Gallery {
     width: 100%;
-    height: 150vh;
+    height: 130vh;
     background: radial-gradient(rgba(48, 48, 48, 0.95), rgba(0, 0, 0, 0.95)),
       url(Images/bg.png) center no-repeat;
     background-size: cover;
@@ -253,6 +257,7 @@ main .About .content .CSS-112{
     width: 20%;
     /*filter: brightness(0.1);*/
     align-items: center;
+    
   }
   .slideshow-link:nth-child(1),
   .slideshow-link:nth-child(5) {
@@ -272,4 +277,29 @@ main .About .content .CSS-112{
   .light {
     filter: brightness(1.5);
     transition: filter 1.5s;
-  }  
+  } 
+  .slideshow-link:hover{
+    
+    
+  } 
+  .Marketplace{
+    width: 100%;
+    height: 100vh;
+    padding: 0rem 2rem;
+    background : url(Images/Background_.avif) rgba(148, 145, 145, 0.25);
+    background-size: cover;
+    display: flex;
+    overflow: hidden;
+  }
+  .Contact{
+    width: 100%;
+    height: 110vh;
+    padding: 0rem 2rem;
+    background:  url(Images/cool-background.png);
+    background-size: cover;
+    display: flex;
+    overflow: hidden;
+  }
+  f
+  }
+  
