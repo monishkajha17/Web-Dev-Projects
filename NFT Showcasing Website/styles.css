@@ -97,10 +97,16 @@ img{
 }
 .social-links{
   justify-content: space-between;
+  position: relative;
   padding: 0.5rem 1rem;
 }
 .social-links .social{
-  padding: 0.5rem, 3rem;
+  padding: .5rem 0.4rem;
+  color: #fff;
+}
+.social-links .social:hover{
+  color: #a8dadc;
+  transition: 0.2s;
 }
 
  .site-title{
