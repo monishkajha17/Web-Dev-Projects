@@ -95,6 +95,13 @@ img{
     font-family: 'Playfair Display SC', serif;
     font-weight: 300;
 }
+.social-links{
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+.social-links .social{
+  padding: 0.5rem, 3rem;
+}
 
  .site-title{
     background: url(https://media.istockphoto.com/id/1333772625/photo/cpu-central-processor-unit-icon-floating-in-space.jpg?b=1&s=170667a&w=0&k=20&c=dKYVxHHEsYOuO6Aba3ZlfnG7HHXmLQFXVW-wuxQCbC0=);
